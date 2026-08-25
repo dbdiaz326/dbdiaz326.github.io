@@ -1,0 +1,32 @@
+/* Structural */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(images/jungle.jpg);
+    background-size: cover;
+}
+
+#content {
+    background-color: rgba(255,255,255, 0.8);   /* the "a" adds a 4th parameter that sets how see-through the background is */
+    width:70%;
+    margin:auto;    /* center in the page */
+    border-radius:5px;  /* made the box less pointy; rounded off the edges */
+    /* border: 2px solid slateblue; */   /* added color border around box */
+    box-shadow: 10px 10px  10px 10px rgba(0,0,0, 0.5);
+}
+
+header, main, footer {
+    padding:5px;
+}
+
+header, footer {
+    background: #30728c;
+    color: white;
+}
+
+/* Navigation */
+
+
+/* Typography */
+h1 {
+    color:blue;
+}
