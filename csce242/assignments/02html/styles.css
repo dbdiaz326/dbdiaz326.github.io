@@ -6,9 +6,13 @@ body {
 }
 
 #content {
-    /* background-color:rgba(127,255,0,0.7); */
     width:75%;
     margin:auto;
+    padding:10px;
+}
+
+h1 {
+    text-align:center;
 }
 
 
