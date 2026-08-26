@@ -6,11 +6,37 @@ body {
 }
 
 #introduction {
-    
+    background-color:rgba(245, 220, 210, 0.7);
+    width:75%;
+    margin:auto;
+    border-radius:10%;
+    box-shadow: 7px 7px 7px 7px rgba(0,0,0, 0.5);
+}
+
+header, main, footer {
+    padding:10px;
+}
+
+#title {
+    text-align:center;
+    color:#7F8497;
 }
 
 /* Navigation */
 
 
 /* Typography */
+
+a {
+    text-decoration:none;
+    color:#878783;
+}
+
+p {
+    color:rgb(75, 75, 132);
+}
+
+h3 {
+    color:rgb(75, 75, 132);
+}
 
