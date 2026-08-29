@@ -54,6 +54,22 @@ p {
 /* Responsive Deisgn */
 
 @media (min-width: 1000px) {
+    #assignment-links {
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        margin:20px auto;
+    }
+
+    .assignment-card {
+        width:300px;
+        min-height:150px;
+        padding:15px;
+        box-sizing:border-box;
+        background-color: rgba(219, 229, 245, 0.85);
+        text-align:center;
+    }
+
     .one {
         flex:1;
     }
@@ -76,5 +92,17 @@ p {
 
     .six {
         flex:6;
+    }
+}
+
+@media (max-width: 700px) {
+    #assignment-links {
+        flex-direction:column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .assignment-card {
+        text-align: center;
     }
 }
