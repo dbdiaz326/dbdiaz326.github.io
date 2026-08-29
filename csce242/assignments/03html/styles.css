@@ -52,14 +52,18 @@ body {
 
 #sidebar-title {
     color:#5e878c;
+    margin:15px 0;
 }
 
 #sidebar-nav ul {
+    margin:0;
+    padding:0 5px 20px;
     list-style:none;
 }
 
 #sidebar-nav li {
     background-color: white;
+    width:100%;
     border: 1px solid #e8b4b4;
 }
 
@@ -74,6 +78,8 @@ body {
 }
 
 .article-titles {
+    margin:0;
+    padding:10px 0;
     color:white;
 }
 
@@ -131,5 +137,9 @@ body {
 @media (max-width: 999px){
     .article-titles {
         padding-top:15px;
+    }
+
+    .title-card {
+        margin-top:10px;
     }
 }
