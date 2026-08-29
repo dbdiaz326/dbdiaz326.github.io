@@ -89,9 +89,20 @@ body {
     height:auto;
 }
 
+.idea-row {
+    background-color: #5d878c;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.idea-text {
+    color:white;
+}
+
 #copyright p {
     margin:0;
     padding: 10px;
+    color:white;
 }
 
 
@@ -99,7 +110,7 @@ body {
 
 /* Responsive Design */
 @media (min-width: 1000px) {
-    main {
+    #top-row {
         display:flex;
     }
 
@@ -115,11 +126,11 @@ body {
     #sidebar {
         flex:1;
         margin-top: 10px;
-        margin-bottom: 10px;
     }
 
     .title-card {
         margin: 10px;
+        margin-bottom: 0;
         margin-right: 0;
     }
 
@@ -132,6 +143,22 @@ body {
         flex:1;
         min-width:0;
     }
+
+    .idea-row {
+        display:flex;
+    }
+
+    .idea-row img {
+        flex:1;
+        width:0;
+        min-height: 0;
+        height:auto;
+    }
+
+    .idea-text {
+        flex:3;
+        padding:10px;
+    }
 }
 
 @media (max-width: 999px){
@@ -141,5 +168,11 @@ body {
 
     .title-card {
         margin-top:10px;
+    }
+
+    .idea-row img {
+        display:block;
+        max-width:auto;
+        margin: 0 auto;
     }
 }
