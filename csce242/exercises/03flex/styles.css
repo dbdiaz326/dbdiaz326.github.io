@@ -4,13 +4,51 @@ body {
     background-color: gray;
 }
 
-#content {
-    width:80%;
-    margin:auto;
-}
-
 #main-header {
     background-color: bisque;
+    padding-top: 3%;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+}
+
+/* Hero */
+#hero {
+    position:relative;
+}
+
+#hero-description {
+    position:absolute;
+    top:60%;
+    left:5%;
+    background: rgba(255,255,255,0.8);
+    padding:20px;
+    font-size:1.5em;
+}
+
+.hero-arrow {
+    position:absolute;
+    top:22%;
+    font-size:12em;
+    color:white;
+    text-decoration:none;
+}
+
+#hero-arrow-right {
+    right:2%;
+}
+
+#hero-arrow-left {
+    left:2%;
+}
+
+/*Sidebard */
+#sidebar, #info {
+    padding:5px;
 }
 
 #sidebar, #info {
@@ -63,6 +101,11 @@ body {
 
 /* Responsive Design */
 @media (min-width: 1000px) {
+    #content {
+        width:100%;
+        margin:auto;
+    }
+
     .columns {
         display:flex;
     }
