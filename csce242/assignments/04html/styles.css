@@ -108,3 +108,20 @@ body {
     font-size:18px;
     font-family: Impact, 'Arial Narrow', sans-serif;
 }
+
+                                    /* Hero */
+#hero img {
+    display:block;
+    width:100%;
+}
+
+#health-needs-text {
+    margin:auto;
+    width:60%;
+    font-weight:bold;
+    line-height: 1.8;
+}
+
+#health-needs-text p {
+    font-size:20px;
+}
