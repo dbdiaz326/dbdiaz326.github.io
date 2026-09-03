@@ -125,3 +125,96 @@ body {
 #health-needs-text p {
     font-size:20px;
 }
+
+
+
+                                            /* CLASS WORK */
+
+/* Footer Links */
+#footer-links header {
+    position:relative;
+}
+
+#footer-social {
+    list-style-type: none;;
+}
+
+#footer-social li {
+    display:inline-block;
+    width:fit-content;
+}
+
+#footer-social a {
+    list-style-type:none;
+}
+
+#footer-links-title {
+    width:fit-content;
+    margin:auto;
+}
+
+#footer-links-title h1, #footer-links h2 {
+    margin:0;
+    padding-left:10px;
+}
+
+#footer-links {
+    background-color: #75000A;
+    color:white;
+}
+
+#footer-links a {
+    color:white;
+}
+
+#footer-links h3 {
+    text-transform: uppercase;
+}
+
+#footer-links .columns section {
+    padding:10px;
+}
+
+#footer-links section ul {
+    
+}
+
+/* Footer Copy */
+#footer-copy {
+    background-color: black;
+    color:white;
+}
+
+#footer-copy a {
+    color:white;
+}
+
+.columns {
+    display:flex;
+}
+
+/* Columns for all devices */
+.columns-mobile {
+    display:flex;
+}
+
+@media (min-width: 1000px) {
+    #footer-links-title {
+        margin:0;
+    }
+
+    #footer-social {
+        position:absolute;
+        top:5px;
+        right:5px;
+        text-decoration:none;
+    }
+}
+
+.one {
+    flex:1;
+}
+
+.two {
+    flex:2;
+}
