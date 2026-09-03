@@ -6,14 +6,16 @@ body {
 
 
 
-/* Headers */
+                                    /* Black Header */
 #black-header {
     background-color:black;
     padding-left:30px;
 }
 
+                                     /* Red Header */
 
-/* Utility Nav */
+
+                                     /* Utility Nav */
 #utility-nav a {
     font-family: Impact, 'Arial Narrow', sans-serif;
     color:white;
@@ -38,9 +40,28 @@ body {
     margin-left:10px;
 }
 
-/* USC Brand */
+                                    /* Main Header */
+#main-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', serif;
+    padding-bottom:15px;
+}
+
+#page-title {
+    margin-right: 40px;
+    color:white;
+    font-size:30px;
+}
+
+                                    /* USC Brand */
 #usc-brand {
     padding-top:10px;
+}
+
+#brand-text {
+    padding-left:10px;
 }
 
 #usc-brand a {
@@ -51,10 +72,6 @@ body {
 #usc-brand p {
     margin:0;
     color:white;
-}
-
-#brand-text {
-    font-family:Georgia, 'Times New Roman', serif;
 }
 
 #university-of {
