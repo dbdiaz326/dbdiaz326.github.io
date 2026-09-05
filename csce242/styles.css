@@ -79,6 +79,7 @@ p {
         justify-content:center;
         gap:30px;
         margin:20px auto;
+        flex-wrap:wrap;
     }
 
     .cards {
