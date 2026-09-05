@@ -128,89 +128,37 @@ body {
 
 
 
-                                            /* CLASS WORK */
 
-/* Footer Links */
-#footer-links header {
-    position:relative;
-}
-
-#footer-social {
-    list-style-type: none;;
-}
-
-#footer-social li {
-    display:inline-block;
-    width:fit-content;
-}
-
-#footer-social a {
-    list-style-type:none;
-}
-
-#footer-links-title {
-    width:fit-content;
-    margin:auto;
-}
-
-#footer-links-title h1, #footer-links h2 {
-    margin:0;
-    padding-left:10px;
-}
-
-#footer-links {
-    background-color: #75000A;
-    color:white;
-}
-
-#footer-links a {
-    color:white;
-}
-
-#footer-links h3 {
-    text-transform: uppercase;
-}
-
-#footer-links .columns section {
-    padding:10px;
-}
-
-/* Footer Copy */
-#footer-copy {
-    background-color: black;
-    color:white;
-}
-
-#footer-copy a {
-    color:white;
-}
-
-.columns {
-    display:flex;
-}
-
-/* Columns for all devices */
-.columns-mobile {
-    display:flex;
-}
-
-@media (min-width: 1000px) {
-    #footer-links-title {
-        margin:0;
+                                    /* Media Queries */
+@media (max-width:1000px) {
+    #utility-nav, #red-header {
+        display:none;
     }
 
-    #footer-social {
-        position:absolute;
-        top:5px;
-        right:5px;
-        text-decoration:none;
+    #black-header {
+        padding:0 33px;
     }
-}
 
-.one {
-    flex:1;
-}
+    #main-header {
+        flex-wrap:wrap;
+        padding: 20px 0 18px;
+    }
 
-.two {
-    flex:2;
+    #usc-brand {
+        padding-top:0;
+    }
+
+    #page-title {
+        width:100%;
+        margin: 30px 0 0;
+        font-size:22px;
+    }
+
+    #university-of {
+        font-size:10px;
+    }
+
+    #south-carolina {
+        font-size:22px;
+    }
 }
