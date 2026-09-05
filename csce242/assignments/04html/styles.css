@@ -182,6 +182,59 @@ body {
     display:flex;
     align-items:center;
     gap:80px;
+    padding:140px 7% 100px;
+}
+
+#sarah-image {
+    width:32%;
+    border-radius:50%;
+}
+
+#sarah-quote {
+    position:relative;
+    width:60%;
+}
+
+#quote-text {
+    margin:0;
+    color:#75000A;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size:22px;
+    font-weight:bold;
+    line-height: 1.8;
+}
+
+#quote-author {
+    margin-top:30px;
+    font-size:15px;;
+    font-weight:bold;
+    color:#37383F;
+}
+
+#quote-text, #quote-author {
+    position:relative;
+    z-index:1;
+}
+
+#opening-quote, #closing-quote {
+    position:absolute;
+    color:#d9d9d9;
+    opacity:0.90;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 1;
+    z-index:0;
+}
+
+#opening-quote {
+    top:-35px;
+    left:-35px;
+}
+
+#closing-quote {
+    right:-25px;
+    bottom:-30px;
 }
 
 
