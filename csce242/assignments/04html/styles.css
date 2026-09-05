@@ -306,6 +306,53 @@ main, #hero, #hero-image {
     margin-left:15px;
     margin-right:15px;
 }
+
+                                    /* Stay Connected */
+#stay-connected {
+    margin-top:75px;
+    padding:70px 5% 120px;
+    background-color:#EDEDED;
+    text-align:center;
+}
+
+#stay-connected h2 {
+    margin: 0 0 35px;
+    color:#75000A;
+    font-size:65px;
+    font-weight: bold;
+}
+
+#stay-connected p {
+    margin: 0 0 55px;
+    font-size:18px;
+}
+
+#connected-links {
+    display:flex;
+    justify-content: center;
+    gap:45px;
+}
+
+.connected-button {
+    display:inline-block;
+    width:200px;
+    padding:10px;
+    box-sizing:border-box;
+    background-color: #75000A;
+    border:2px solid white;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:Impact, 'Arial Narrow', sans-serif;
+    font-size:17px;
+}
+
+                                    /* White Footer */
+#white-footer {
+    background-color: #EDEDED;
+}
+
                                     /* Media Queries */
 @media (max-width:1000px) {
     #utility-nav, #red-header {
@@ -421,5 +468,30 @@ main, #hero, #hero-image {
 
     #institute-box {
         width:96%;
+    }
+
+    #stay-connected {
+        padding:70px 10%;
+    }
+
+    #stay-connected h2 {
+        font-size:35px;
+    }
+
+    #stay-connected p {
+        margin-bottom:50px;
+        font-size:15px;
+    }
+
+    #connected-links {
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:60px 35px;
+    }
+
+    .connected-button {
+        width:auto;
+        min-width:0;
     }
 }
