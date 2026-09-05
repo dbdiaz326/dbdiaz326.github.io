@@ -507,11 +507,31 @@ main, #hero, #hero-image {
 
                                     /* Black Footer */
 #black-footer {
-    background-color: black;
+    margin:0;
+    padding:10px 20px;
+    background-color:black;
+    border-top:1px solid white;
+}
+
+#black-footer ul {
+    display:flex;
+    align-items:center;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#black-nav li:not(:last-child)::after {
+    content:"|";
+    margin:0 18px;
+    color:white;
 }
 
 #black-footer a {
     color:white;
+    text-decoration:none;
+    font-size:11px;
+    font-weight:bold;
 }
 
                                     /* Media Queries */
@@ -784,5 +804,28 @@ main, #hero, #hero-image {
 
     #colleges-links .red-link-columns li {
         break-inside:avoid;
+    }
+
+    #black-footer {
+        padding:18px 20px;
+    }
+
+    #black-nav ul {
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px 0;
+    }
+
+    #black-nav li {
+        flex:none;
+        white-space:nowrap;
+    }
+
+    #black-nav a {
+        font-size:12px;
+    }
+
+    #black-nav li:not(:last-child)::after {
+        margin:0 12px;
     }
 }
