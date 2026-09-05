@@ -55,30 +55,31 @@ body {
 }
 
                                     /* USC Brand */
-#usc-brand {
+.usc-brand {
     padding-top:10px;
 }
 
-#brand-text {
+.brand-text {
     padding-left:10px;
 }
 
-#usc-brand a {
-    text-decoration:none;
+.usc-brand a {
     display:flex;
+    align-items:center;
+    text-decoration:none;
 }
 
-#usc-brand p {
+.usc-brand p {
     margin:0;
     color:white;
 }
 
-#university-of {
+.university-of {
     font-size:13px;
     text-transform: uppercase;
 }
 
-#south-carolina {
+.south-carolina {
     font-size:30px;
 }
 
@@ -435,7 +436,83 @@ main, #hero, #hero-image {
     margin:10px 0 0;
 }
 
+                                    /* Red Footer */
+#red-footer {
+    background-color: #75000A;
+    padding:45px 3% 80px;
+    color:white;
+}
 
+#red-footer-top {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:55px;
+}
+
+#red-footer-social {
+    display:flex;
+    gap:30px;
+}
+
+#red-footer-social img {
+    width:45px;
+    height:45px;
+    object-fit:contain;
+}
+
+#red-footer-links {
+    display:grid;
+    grid-template-columns:2fr 1.3fr 0.6fr;
+    gap:45px;
+}
+
+.red-footer-group h2 {
+    margin:0 0 20px;
+    padding-bottom:10px;
+    border-bottom:1px solid white;
+    font-family:Arial, 'Arial Narrow', sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.red-link-columns {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:35px;
+}
+
+#offices-links .red-link-columns {
+    grid-template-columns:repeat(2, 1fr);
+}
+
+.red-footer-group ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.red-footer-group li {
+    margin-bottom:10px;
+}
+
+.red-footer-group a {
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    line-height:1.2;
+}
+
+                                    /* Black Footer */
+#black-footer {
+    background-color: black;
+}
+
+#black-footer a {
+    color:white;
+}
 
                                     /* Media Queries */
 @media (max-width:1000px) {
@@ -452,7 +529,7 @@ main, #hero, #hero-image {
         padding: 20px 0 18px;
     }
 
-    #usc-brand {
+    .usc-brand {
         padding-top:0;
     }
 
@@ -462,11 +539,11 @@ main, #hero, #hero-image {
         font-size:22px;
     }
 
-    #university-of {
+    .university-of {
         font-size:10px;
     }
 
-    #south-carolina {
+    .south-carolina {
         font-size:22px;
     }
 
@@ -659,5 +736,53 @@ main, #hero, #hero-image {
 
     .white-footer-address p {
         margin:10px 0 0;
+    }
+
+    #red-footer {
+        padding:40px 10%;
+    }
+
+    #red-footer-top {
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    #red-footer-social {
+        margin-top:30px;
+    }
+
+    #red-footer-links {
+        display:block;
+    }
+
+    .red-footer-group {
+        margin-top:45px;
+    }
+
+    .red-link-columns, #offices-links, .red-link-columns {
+        grid-template-columns:1fr;
+        gap:0;
+    }
+
+    #red-footer-logo {
+        align-self:center;
+    }
+
+    #red-footer-social {
+        align-self: center;
+    }
+
+    #colleges-links .red-link-columns {
+        display:block;
+        column-count:2;
+        column-gap:40px;
+    }
+
+    #colleges-links .red-link-columns ul {
+        display:contents;
+    }
+
+    #colleges-links .red-link-columns li {
+        break-inside:avoid;
     }
 }
