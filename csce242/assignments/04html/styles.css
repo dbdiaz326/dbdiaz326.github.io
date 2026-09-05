@@ -271,4 +271,58 @@ body {
     #south-carolina {
         font-size:22px;
     }
+
+    #health-needs-text {
+        width:80%;
+    }
+
+    #health-needs-text p {
+        font-size:25px;
+    }
+
+    #education-box {
+        position:static;
+        width:100%;
+        padding:45px 50px;
+    }
+
+    #education-title {
+        font-size:38px;
+    }
+
+    #education-button a {
+        display:block;
+    }
+
+    #sarah {
+        flex-direction:column;
+        gap:45px;
+        padding:100px 12% 80px;
+    }
+
+    #sarah-image {
+        width:70%;
+    }
+
+    #sarah-quote {
+        width:100%;
+    }
+
+    #quote-text {
+        font-size:20px;
+    }
+
+    #quote-author {
+        font-size:12px;
+    }
+
+    #opening-quote {
+        top:-35px;
+        left:-35px;
+    }
+
+    #closing-quote {
+        right:-20px;
+        bottom:-30px;
+    }
 }
