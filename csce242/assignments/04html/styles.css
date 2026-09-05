@@ -202,6 +202,11 @@ main, #hero, #hero-image {
     right:5%;
 }
 
+                                    /* Institute Box */
+#institute-box {
+    width:47%;
+}
+
 
                                     /* Sarah Portion */
 #sarah {
@@ -263,8 +268,44 @@ main, #hero, #hero-image {
     bottom:-30px;
 }
 
+                                    /* Middle Links */
+#middle-links {
+    display:flex;
+    gap:60px;
+    padding:140px 4% 80px;
+}
 
+.link-card {
+    flex:1;
+}
 
+.link-card-image {
+    display:block;
+    width:100%;
+    height:375px;
+    object-fit:cover;
+}
+
+.link-card-title {
+    margin:20px 0 25px;
+    font-size:22px;
+}
+
+.link-card-title a {
+    color:#75000A;
+    text-decoration:none;
+}
+
+.link-card-text {
+    margin:0;
+    font-size:15px;
+    line-height:1.8;
+}
+
+.link-card-title, .link-card-text {
+    margin-left:15px;
+    margin-right:15px;
+}
                                     /* Media Queries */
 @media (max-width:1000px) {
     #utility-nav, #red-header {
@@ -362,5 +403,23 @@ main, #hero, #hero-image {
     #closing-quote {
         right:-20px;
         bottom:-30px;
+    }
+
+    #middle-links {
+        flex-direction: column;
+        gap:60px;
+        padding:120px 10% 80px;
+    }
+
+    .link-card {
+        width:100%;
+    }
+
+    .link-card-image {
+        height:400px;
+    }
+
+    #institute-box {
+        width:96%;
     }
 }
