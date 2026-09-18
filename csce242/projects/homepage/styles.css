@@ -1,0 +1,13 @@
+                                    /* Color variables */
+:root {
+    --homepage-bacgkround: #1c1612;;
+    --heading-text-color: #f3e5c8;
+    --text-color: #d7c6a6;
+    --accent-text-color: #d98b52;
+    --nav-text-color: #e5b96f;
+}
+
+                                    /* Structural */
+body {
+    background-color: var(--homepage-bacgkround);
+}
