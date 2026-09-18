@@ -8,6 +8,8 @@
     --divider-color: #e8ad5c;
     --hero-fade-color: #32100d;
     --hero-card-background: #452b24;
+    --steps-background-left: #4d211b;
+    --steps-background-right: #5e3427;
 }
 
                                     /* Structural */
@@ -94,6 +96,7 @@ body {
     gap: 25px;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom:60px;
 }
 
 .hero-card {
@@ -164,6 +167,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 14px;
+}
+
+                                    /* Steps Section */
+#steps-section {
+    border: 4px solid var(--divider-color);
+}
+
+#steps-heading {
+    color: var(--heading-text-color);
+    font-size:35px;
+}
+
+#steps-section {
+    border: 4px solid var(--divider-color);
+    background-image: linear-gradient(to right, var(--steps-background-left), var(--steps-background-right));
+    min-height: 600px;
 }
 
                                     /* Media Query */
