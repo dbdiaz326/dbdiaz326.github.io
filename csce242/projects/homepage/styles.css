@@ -182,7 +182,7 @@ body {
     color: var(--heading-text-color);
     font-size: 40px;
     text-transform: uppercase;
-    max-width: 1160px;
+    max-width: 1100px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
@@ -280,6 +280,26 @@ body {
 
     .hero-card {
         width: 230px;
+    }
+
+        #steps-section {
+        min-height: 0;
+        padding: 50px 20px;
+    }
+
+    #steps-heading {
+        font-size: 38px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    #steps-card-section {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .steps-card {
+        width: 240px;
     }
 }
 
