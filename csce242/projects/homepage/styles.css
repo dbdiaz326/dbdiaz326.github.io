@@ -7,6 +7,7 @@
     --nav-text-color: #e5b96f;
     --divider-color: #e8ad5c;
     --hero-fade-color: #32100d;
+    --hero-card-background: #452b24;
 }
 
                                     /* Structural */
@@ -73,6 +74,98 @@ body {
     margin: 0;
 }
 
+                                    /* Choose Section */
+#choose-section {
+    border: 4px solid var(--divider-color);
+}
+
+#choose-heading {
+    color: var(--heading-text-color);
+    font-size: 50px;
+    text-transform: uppercase;
+    max-width: 1003px;
+    margin: 0 auto;
+    padding: 90px 0 30px;
+}
+
+#hero-card-section {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-card {
+    background-color: var(--hero-card-background);
+    width: 200px;
+    flex-shrink: 0;
+    min-height: 320px;
+    padding: 20px;
+    border: 1px solid #8b573d;
+    border-radius: 18px;
+}
+
+#ironclad-color {
+    background-color: #b13e38;
+}
+
+#silent-color {
+    background-color: #4d8056;
+}
+
+#defect-color {
+    background-color: #537aa1;
+}
+
+#watcher-color {
+    background-color: #9a4b9e;
+}
+
+.hero-card-color {
+    height: 165px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.hero-card-image {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-card-title {
+    color: var(--heading-text-color);
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 15px 0 25px;
+}
+
+.hero-card-text {
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0 0 20px;
+}
+
+.hero-card-emoji {
+    font-size: 25px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.hero-card-link {
+    text-decoration: none;
+    color: var(--accent-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
                                     /* Media Query */
 @media (max-width: 1000px) {
     #intro-header {
@@ -114,6 +207,22 @@ body {
         font-size: 20px;
         text-align: center;
         padding: 15px 20px 0;
+    }
+
+    #choose-heading {
+        font-size: 38px;
+        text-align: center;
+        padding: 50px 20px 25px;
+    }
+
+    #hero-card-section {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0 20px 40px;
+    }
+
+    .hero-card {
+        width: 230px;
     }
 }
 
