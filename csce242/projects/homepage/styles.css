@@ -62,13 +62,15 @@ body {
     color: var(--heading-text-color);
     font-size: 80px;
     text-transform: uppercase;
-    padding: 80px 0 0 85px;
+    padding: 140px 0 0 85px;
+    margin: 0;
 }
 
 #hero-text {
     color: var(--text-color);
     font-size: 25px;
-    padding: 15px 0 0 85px;
+    padding-left:85px;
+    margin: 0;
 }
 
                                     /* Media Query */
