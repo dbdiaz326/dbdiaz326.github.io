@@ -103,6 +103,18 @@ body {
     text-align:center;
 }
 
+                                /* Excerise 2 */
+.hidden {
+    display:none;
+}
+
+                                /* Footer */
+#main-footer {
+    color:#4d8795;
+    font-size:20px;
+    text-align:center;
+}
+
 
                                 /* Phone Screen */
 @media (max-width:1000px) {
