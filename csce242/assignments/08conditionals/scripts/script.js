@@ -31,22 +31,22 @@ document.getElementById("txt-days-missed").onkeyup = (e) => {
 
     document.getElementById("deduction-message").innerHTML =
         `You will lose ${pointsLost.toFixed(1)}% for skipping ${daysMissed} days.`;
-            if(daysMissed == 0) {
-                document.getElementById("attendance-message").innerHTML =
-                    "Perfect attendance! Keep it up.";
-            } else if(daysMissed <= 2) {
-                document.getElementById("attendance-message").innerHTML =
-                    "A couple missed classes should be manageable.";
-            } else if(daysMissed <= 5) {
-                document.getElementById("attendance-message").innerHTML =
-                    "You are starting to miss a noticeable amount of class.";
-            } else if(daysMissed <= 7) {
-                document.getElementById("attendance-message").innerHTML =
-                    "Try not to miss any more classes.";
-            } else {
-                document.getElementById("attendance-message").innerHTML =
-                    "You are missing valuable learning opportunities.";
-            }
+    if(daysMissed == 0) {
+        document.getElementById("attendance-message").innerHTML =
+            "Perfect attendance! Keep it up.";
+    } else if(daysMissed <= 2) {
+        document.getElementById("attendance-message").innerHTML =
+            "A couple missed classes should be manageable.";
+    } else if(daysMissed <= 5) {
+        document.getElementById("attendance-message").innerHTML =
+            "You are starting to miss a noticeable amount of class.";
+    } else if(daysMissed <= 7) {
+        document.getElementById("attendance-message").innerHTML =
+            "Try not to miss any more classes.";
+    } else {
+        document.getElementById("attendance-message").innerHTML =
+            "You are missing valuable learning opportunities.";
+    }
 };
 
 //end of semester counter
