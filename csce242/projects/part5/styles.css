@@ -684,7 +684,20 @@ body {
 
 .watcher-relic-card .character-screen-relic-description {
     color: var(--watcher-text-color);
-}                                    
+}
+
+                                    /* Watcher Deck Section */
+#watcher-deck-section {
+    background-color: var(--watcher-deck-footer-background);
+}
+
+#watcher-deck-section .character-screen-deck-heading {
+    color: var(--watcher-heading-text-color);
+}
+
+#watcher-deck-section .character-screen-deck-description {
+    color: var(--watcher-text-color);
+}
 
 
                                     /* Media Query */
