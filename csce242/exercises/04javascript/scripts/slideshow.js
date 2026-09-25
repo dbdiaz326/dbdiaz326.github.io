@@ -1,0 +1,1 @@
+document.getElementById("hero-arrow-right").onclick = (e)
