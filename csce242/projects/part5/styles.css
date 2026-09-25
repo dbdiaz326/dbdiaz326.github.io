@@ -420,6 +420,20 @@ body {
     color: var(--watcher-text-color);
 }
 
+                                    /* Watcher Hero */
+#watcher-hero {
+    background-image: linear-gradient(to right, rgba(23, 9, 33, 0.85) 0%, rgba(23, 9, 33, 0.85) 44%, transparent 44%), url("images/watcher-hero-image.png");
+}
+
+#watcher-hero .character-screen-hero-title {
+    color: var(--watcher-heading-text-color);
+}
+
+#watcher-hero .character-screen-hero-description, #watcher-hero .character-screen-starting-health, #watcher-hero .character-screen-starting-relic {
+    color: var(--watcher-text-color);
+}
+
+
                                     /* Media Query */
 @media (max-width: 1000px) {
     #intro-header {
@@ -572,5 +586,10 @@ body {
     #defect-hero {
         background-image: linear-gradient(to right, rgba(9, 26, 51, 0.8), rgba(9, 26, 51, 0.5)), url("images/defect-hero-image.png");
         background-position: 80% center;
+    }
+
+    #watcher-hero {
+        background-image: linear-gradient(to right, rgba(23, 9, 33, 0.8), rgba(23, 9, 33, 0.5)), url("images/watcher-hero-image.png");
+        background-position: 60% center;
     }
 }
