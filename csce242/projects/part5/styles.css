@@ -433,11 +433,6 @@ body {
     display: block;
 }
 
-.character-screen-deck-card:nth-child(1), .character-screen-deck-card:nth-child(6) {
-    position: relative;
-    left: -20px;
-}
-
 
                                     /* Ironclad Screen */
                                     /* Ironclad Header */
@@ -500,6 +495,11 @@ body {
     transform: scale(0.96);
 }
 
+#ironclad-deck-section .character-screen-deck-card:nth-child(1), #ironclad-deck-section .character-screen-deck-card:nth-child(6) {
+    position: relative;
+    left: -20px;
+}
+
                                     /* Silent Screen */
                                     /* Silent Header */
 #silent-header {
@@ -552,6 +552,21 @@ body {
 .silent-relic-card .character-screen-relic-description {
     color: var(--silent-text-color);
 }
+
+                                    /* Silent Deck Section */
+                                    /* Silent Deck Section */
+#silent-deck-section {
+    background-color: var(--silent-deck-footer-background);
+}
+
+#silent-deck-section .character-screen-deck-heading {
+    color: var(--silent-heading-text-color);
+}
+
+#silent-deck-section .character-screen-deck-description {
+    color: var(--silent-text-color);
+}
+
 
                                     /* Defect Screen */
                                     /* Defect Header */
@@ -882,7 +897,7 @@ body {
         height: auto;
     }
 
-    .character-screen-deck-card:nth-child(1), .character-screen-deck-card:nth-child(6) {
+    #ironclad-deck-section .character-screen-deck-card:nth-child(1), #ironclad-deck-section .character-screen-deck-card:nth-child(6) {
         left: 0;
     }
 }
