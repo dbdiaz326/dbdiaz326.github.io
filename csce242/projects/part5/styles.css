@@ -577,6 +577,31 @@ body {
     color: var(--watcher-text-color);
 }
 
+                                    /* Watcher Relic Section */
+#watcher-relic-section {
+    background-color: var(--watcher-background);
+}
+
+#watcher-relic-section .character-screen-relic-heading {
+    color: var(--watcher-heading-text-color);
+}
+
+#watcher-relic-section .character-screen-relic-subheading {
+    color: var(--watcher-accent-text-color);
+}
+
+.watcher-relic-card {
+    background-color: var(--watcher-relic-card-background);
+}
+
+.watcher-relic-card .character-screen-relic-name {
+    color: var(--watcher-heading-text-color);
+}
+
+.watcher-relic-card .character-screen-relic-description {
+    color: var(--watcher-text-color);
+}                                    
+
 
                                     /* Media Query */
 @media (max-width: 1000px) {
