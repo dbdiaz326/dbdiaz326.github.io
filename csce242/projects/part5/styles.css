@@ -849,4 +849,40 @@ body {
     .character-screen-relic-description {
         font-size: 16px;
     }
+
+    .character-screen-deck-section {
+        padding: 50px 20px;
+    }
+
+    .character-screen-deck-heading {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .character-screen-deck-description {
+        font-size: 18px;
+        text-align: center;
+        margin: 10px auto 25px;
+    }
+
+    .character-screen-deck-card-section {
+        gap: 20px;
+        max-width: 100%;
+    }
+
+    .character-screen-deck-card-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        max-width: 100%;
+    }
+
+    .character-screen-deck-card {
+        width: 65%;
+        height: auto;
+    }
+
+    .character-screen-deck-card:nth-child(1), .character-screen-deck-card:nth-child(6) {
+        left: 0;
+    }
 }
