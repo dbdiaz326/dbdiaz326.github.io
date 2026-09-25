@@ -13,6 +13,11 @@
     --steps-background-right: #5e3427;
     --steps-card-background: #241a16;
 
+    /* Ironclad Colors */
+    --ironclad-relic-section-background: #15110e;
+    --ironclad-relic-card-background: #40120f;
+    --relic-card-border: #eb8f40;
+
     /* Silent Colors */
     --silent-background: #0c170e;
     --silent-header-background: #11200f;
@@ -330,6 +335,67 @@ body {
     padding-left: 60px;
 }
 
+                                    /* Character Screen Relic Section */
+.character-screen-relic-section {
+    border: 4px solid var(--divider-color);
+    padding: 50px 0 90px;
+}
+
+.character-screen-relic-heading {
+    font-size: 36px;
+    text-transform: uppercase;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.character-screen-relic-subheading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    max-width: 980px;
+    margin: 10px auto 20px;
+}
+
+.character-screen-relic-card-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.character-screen-relic-card {
+    box-sizing: border-box;
+    width: 220px;
+    min-height: 230px;
+    padding: 12px;
+    border: 1px solid var(--relic-card-border);
+    border-radius: 18px;
+}
+
+.character-screen-relic-image {
+    width: 82px;
+    height: 82px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.character-screen-relic-name {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.character-screen-relic-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+}
+
                                     /* Ironclad Screen */
                                     /* Ironclad Header */
 #ironclad-header .character-screen-site-title {
@@ -352,6 +418,31 @@ body {
 #ironclad-hero .character-screen-hero-description, #ironclad-hero .character-screen-starting-health, #ironclad-hero .character-screen-starting-relic {
     color: var(--text-color);
 }
+
+                                    /* Ironclad Relic Section */
+#ironclad-relic-section {
+    background-color: var(--ironclad-relic-section-background);
+}
+
+#ironclad-relic-section .character-screen-relic-heading {
+    color: var(--heading-text-color);
+}
+
+#ironclad-relic-section .character-screen-relic-subheading {
+    color: var(--accent-text-color);
+}
+
+.ironclad-relic-card {
+    background-color: var(--ironclad-relic-card-background);
+}
+
+.ironclad-relic-card .character-screen-relic-name {
+    color: var(--heading-text-color);
+}
+
+.ironclad-relic-card .character-screen-relic-description {
+    color: var(--text-color);
+}                                    
 
                                     /* Silent Screen */
                                     /* Silent Header */
