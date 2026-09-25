@@ -524,6 +524,32 @@ body {
     color: var(--defect-text-color);
 }
 
+                                    /* Defect Relic Section */
+#defect-relic-section {
+    background-color: var(--defect-background);
+}
+
+#defect-relic-section .character-screen-relic-heading {
+    color: var(--defect-heading-text-color);
+}
+
+#defect-relic-section .character-screen-relic-subheading {
+    color: var(--defect-accent-text-color);
+}
+
+.defect-relic-card {
+    background-color: var(--defect-relic-card-background);
+}
+
+.defect-relic-card .character-screen-relic-name {
+    color: var(--defect-heading-text-color);
+}
+
+.defect-relic-card .character-screen-relic-description {
+    color: var(--defect-text-color);
+}
+
+
                                     /* Watcher Screen */
                                     /* Watcher Header */
 #watcher-header {
