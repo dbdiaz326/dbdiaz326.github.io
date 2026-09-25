@@ -326,6 +326,20 @@ body {
     color: var(--silent-text-color);
 }
 
+                                    /* Defect Screen */
+                                    /* Defect Header */
+#defect-header {
+    background-color: var(--defect-header-background);
+}
+
+#defect-header .character-screen-site-title {
+    color: var(--defect-heading-text-color);
+}
+
+#defect-header .nav-links a {
+    color: var(--defect-text-color);
+}
+
                                     /* Media Query */
 @media (max-width: 1000px) {
     #intro-header {
