@@ -259,8 +259,27 @@ body {
 
 
                                     /* Character Screen Classes */
+.character-screen-header {
+    display: flex;
+    padding:0;
+}
+
+.character-screen-site-title {
+    color: var(--heading-text-color);
+    margin:0;
+    padding: 15px 0px 10px 60px;
+    text-transform: uppercase;
+}
 
                                     /* Ironclad Screen */
+                                    /* Ironclad Header */
+#ironclad-header .character-screen-site-title {
+    color: var(--heading-text-color);
+}
+
+#ironclad-header .nav-links a {
+    color: var(--text-color);
+}
 
                                     /* Media Query */
 @media (max-width: 1000px) {
@@ -363,5 +382,18 @@ body {
 
     #home-footer .nav-links {
         margin: 30px auto 0;
+    }
+
+    .character-screen-header {
+        flex-direction: column;
+    }
+
+    .character-screen-site-title {
+        text-align: center;
+        padding: 15px 0 10px;
+    }
+
+    .character-screen-header .nav-links {
+        margin: 0 auto;
     }
 }
