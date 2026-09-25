@@ -433,6 +433,43 @@ body {
     display: block;
 }
 
+                                    /* Character Screen Footer */
+.character-screen-footer {
+    display: flex;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+.character-screen-footer-nav-links {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.character-screen-footer-nav-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.character-screen-footer-nav-links li {
+    padding: 0 24px 0 0;
+}
+
+.character-screen-footer-copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 22px 0 0;
+}
+
+.character-screen-footer-info {
+    width: 45%;
+}
+
+.character-screen-footer-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
 
                                     /* Ironclad Screen */
                                     /* Ironclad Header */
@@ -499,6 +536,25 @@ body {
     position: relative;
     left: -20px;
 }
+
+                                    /* Ironclad Footer */
+#ironclad-footer {
+    background-color: var(--ironclad-deck-background);
+}
+
+#ironclad-footer .character-screen-footer-copyright {
+    color: var(--text-color);
+}
+
+#ironclad-footer .nav-links a {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+#ironclad-footer .character-screen-footer-title {
+    color: var(--heading-text-color);
+}
+
 
                                     /* Silent Screen */
                                     /* Silent Header */
@@ -925,5 +981,27 @@ body {
 
     #ironclad-deck-section .character-screen-deck-card:nth-child(1), #ironclad-deck-section .character-screen-deck-card:nth-child(6) {
         left: 0;
+    }
+
+    .character-screen-footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .character-screen-footer .nav-links {
+        margin: 30px auto 0;
+    }
+
+    .character-screen-footer .nav-links ul {
+        justify-content: center;
+    }
+
+    .character-screen-footer-nav-links li {
+        padding: 0 10px 10px;
+    }
+
+    .character-screen-footer-info {
+        width: 100%;
     }
 }
