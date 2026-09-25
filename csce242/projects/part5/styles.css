@@ -470,6 +470,33 @@ body {
 #silent-hero .character-screen-hero-description, #silent-hero .character-screen-starting-health, #silent-hero .character-screen-starting-relic {
     color: var(--silent-text-color);
 }
+
+                                    /* Silent Relic Section */
+#silent-relic-section {
+    background-color: var(--silent-section-background);
+}
+
+#silent-relic-section .character-screen-relic-heading {
+    color: var(--silent-heading-text-color);
+}
+
+#silent-relic-section .character-screen-relic-subheading {
+    color: var(--silent-accent-text-color);
+}
+
+.silent-relic-card {
+    background-color: var(--silent-relic-card-background);
+    border-color: var(--silent-relic-card-border);
+}
+
+.silent-relic-card .character-screen-relic-name {
+    color: var(--silent-heading-text-color);
+}
+
+.silent-relic-card .character-screen-relic-description {
+    color: var(--silent-text-color);
+}
+
                                     /* Defect Screen */
                                     /* Defect Header */
 #defect-header {
