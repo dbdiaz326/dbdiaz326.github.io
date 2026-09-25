@@ -620,6 +620,19 @@ body {
     color: var(--defect-text-color);
 }
 
+                                    /* Defect Deck Section */
+#defect-deck-section {
+    background-color: var(--defect-deck-footer-background);
+}
+
+#defect-deck-section .character-screen-deck-heading {
+    color: var(--defect-heading-text-color);
+}
+
+#defect-deck-section .character-screen-deck-description {
+    color: var(--defect-text-color);
+}
+
 
                                     /* Watcher Screen */
                                     /* Watcher Header */
