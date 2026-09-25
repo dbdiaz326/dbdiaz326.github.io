@@ -302,6 +302,34 @@ body {
     text-transform: uppercase;
 }
 
+.character-screen-hero {
+    border: 4px solid var(--divider-color);
+    background-size: cover;
+    background-position: center;
+    min-height: 570px;
+}
+
+.character-screen-hero-title {
+    font-size: 90px;
+    text-transform: uppercase;
+    padding: 125px 0 0 60px;
+    margin: 0;
+}
+
+.character-screen-hero-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 485px;
+    padding-left: 60px;
+    margin: 15px 0 0;
+}
+
+.character-screen-starting-health, .character-screen-starting-relic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
                                     /* Ironclad Screen */
                                     /* Ironclad Header */
 #ironclad-header .character-screen-site-title {
@@ -309,6 +337,19 @@ body {
 }
 
 #ironclad-header .nav-links a {
+    color: var(--text-color);
+}
+
+                                    /* Ironclad Hero */
+#ironclad-hero {
+   background-image: linear-gradient(to right, rgba(50, 16, 13, 0.85) 0%, rgba(50, 16, 13, 0.85) 44%, transparent 44%), url("images/ironclad-hero-image.png");
+}
+
+#ironclad-hero .character-screen-hero-title {
+    color: var(--heading-text-color);
+}
+
+#ironclad-hero .character-screen-hero-description, #ironclad-hero .character-screen-starting-health, #ironclad-hero .character-screen-starting-relic {
     color: var(--text-color);
 }
 
@@ -338,6 +379,20 @@ body {
 
 #defect-header .nav-links a {
     color: var(--defect-text-color);
+}
+
+                                    /* Watcher Screen */
+                                    /* Watcher Header */
+#watcher-header {
+    background-color: var(--watcher-header-background);
+}
+
+#watcher-header .character-screen-site-title {
+    color: var(--watcher-heading-text-color);
+}
+
+#watcher-header .nav-links a {
+    color: var(--watcher-text-color);
 }
 
                                     /* Media Query */
@@ -454,5 +509,33 @@ body {
 
     .character-screen-header .nav-links {
         margin: 0 auto;
+    }
+
+        .character-screen-hero {
+        min-height: 600px;
+        background-position: center;
+    }
+
+    .character-screen-hero-title {
+        font-size: 50px;
+        padding: 65px 20px 0;
+    }
+
+    .character-screen-hero-description {
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 20px;
+        padding: 0 20px;
+        margin: 15px 0 0;
+    }
+
+    .character-screen-starting-health, .character-screen-starting-relic {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    #ironclad-hero {
+        background-image: linear-gradient(to right, rgba(50, 16, 13, 0.8), rgba(50, 16, 13, 0.5)), url("images/ironclad-hero-image.png");
+        background-position: 65% center;
     }
 }
