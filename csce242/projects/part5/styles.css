@@ -689,6 +689,23 @@ body {
     color: var(--defect-text-color);
 }
 
+                                    /* Defect Footer */
+#defect-footer {
+    background-color: var(--defect-deck-footer-background);
+}
+
+#defect-footer .character-screen-footer-title {
+    color: var(--defect-heading-text-color);
+}
+
+#defect-footer .character-screen-footer-copyright {
+    color: var(--defect-text-color);
+}
+
+#defect-footer .nav-links a {
+    color: var(--defect-text-color);
+    font-size: 14px;
+}
 
                                     /* Watcher Screen */
                                     /* Watcher Header */
