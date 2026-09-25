@@ -367,6 +367,18 @@ body {
     color: var(--silent-text-color);
 }
 
+                                    /* Silent Hero */
+#silent-hero {
+    background-image: linear-gradient(to right, rgba(12, 23, 14, 0.85) 0%, rgba(12, 23, 14, 0.85) 44%, transparent 44%), url("images/silent-hero-image.png");
+}
+
+#silent-hero .character-screen-hero-title {
+    color: var(--silent-heading-text-color);
+}
+
+#silent-hero .character-screen-hero-description, #silent-hero .character-screen-starting-health, #silent-hero .character-screen-starting-relic {
+    color: var(--silent-text-color);
+}
                                     /* Defect Screen */
                                     /* Defect Header */
 #defect-header {
@@ -511,7 +523,7 @@ body {
         margin: 0 auto;
     }
 
-        .character-screen-hero {
+    .character-screen-hero {
         min-height: 600px;
         background-position: center;
     }
@@ -537,5 +549,10 @@ body {
     #ironclad-hero {
         background-image: linear-gradient(to right, rgba(50, 16, 13, 0.8), rgba(50, 16, 13, 0.5)), url("images/ironclad-hero-image.png");
         background-position: 65% center;
+    }
+
+    #silent-hero {
+        background-image: linear-gradient(to right, rgba(12, 23, 14, 0.8), rgba(12, 23, 14, 0.5)), url("images/silent-hero-image.png");
+        background-position: 100% center;
     }
 }
