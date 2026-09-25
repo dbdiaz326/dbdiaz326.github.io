@@ -755,6 +755,24 @@ body {
     color: var(--watcher-text-color);
 }
 
+                                    /* Watcher Footer */
+#watcher-footer {
+    background-color: var(--watcher-deck-footer-background);
+}
+
+#watcher-footer .character-screen-footer-title {
+    color: var(--watcher-heading-text-color);
+}
+
+#watcher-footer .character-screen-footer-copyright {
+    color: var(--watcher-text-color);
+}
+
+#watcher-footer .nav-links a {
+    color: var(--watcher-text-color);
+    font-size: 14px;
+}
+
 
                                     /* Media Query */
 @media (max-width: 1000px) {
