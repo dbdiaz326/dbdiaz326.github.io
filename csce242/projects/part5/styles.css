@@ -1,4 +1,5 @@
-                                    /* Color variables */
+                                   /* Homepage */
+                                   /* Color variables */
 :root {
     --homepage-bacgkround: #1c1612;;
     --heading-text-color: #f3e5c8;
@@ -11,6 +12,36 @@
     --steps-background-left: #4d211b;
     --steps-background-right: #5e3427;
     --steps-card-background: #241a16;
+
+    /* Silent Colors */
+    --silent-background: #0c170e;
+    --silent-header-background: #11200f;
+    --silent-section-background: #0c170e;
+    --silent-deck-footer-background: #172a13;
+    --silent-heading-text-color: #e1f5b8;
+    --silent-text-color: #99c2ad;
+    --silent-accent-text-color: #a3db4d;
+    --silent-relic-card-background: #173911;
+    --silent-relic-card-border: #eb8f40;
+    --silent-footer-border: #8c5738;
+
+    /*Defect Colors */
+    --defect-background: #060e1b;
+    --defect-header-background: #091a33;
+    --defect-deck-footer-background: #0e213b;
+    --defect-heading-text-color: #dbf5ff;
+    --defect-text-color: #99ccf0;
+    --defect-accent-text-color: #59c7ff;
+    --defect-relic-card-background: #0e2e52;
+
+    /* Watcher Colors */
+    --watcher-background: #170921;
+    --watcher-header-background: #2b0b40;
+    --watcher-deck-footer-background: #2b0e40;
+    --watcher-heading-text-color: #faebff;
+    --watcher-text-color: #e0b8ff;
+    --watcher-accent-text-color: #f28feb;
+    --watcher-relic-card-background: #33124d;
 }
 
                                     /* Structural */
@@ -279,6 +310,20 @@ body {
 
 #ironclad-header .nav-links a {
     color: var(--text-color);
+}
+
+                                    /* Silent Screen */
+                                    /* Silent Header */
+#silent-header {
+    background-color: var(--silent-header-background);
+}
+
+#silent-header .character-screen-site-title {
+    color: var(--silent-heading-text-color);
+}
+
+#silent-header .nav-links a {
+    color: var(--silent-text-color);
 }
 
                                     /* Media Query */
