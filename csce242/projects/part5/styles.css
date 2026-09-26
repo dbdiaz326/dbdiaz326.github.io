@@ -1018,6 +1018,58 @@ body {
     color: var(--silent-text-color);
 }
 
+                                    /* Defect Detail Screens */
+.defect-detail-screen {
+    background-color: var(--defect-background);
+}
+
+.defect-detail-screen .character-screen-header {
+    background-color: var(--defect-header-background);
+}
+
+.defect-detail-screen .character-screen-site-title {
+    color: var(--defect-heading-text-color);
+}
+
+.defect-detail-screen .nav-links a {
+    color: var(--defect-text-color);
+}
+
+.defect-detail-screen .detail-screen-subheading {
+    color: var(--defect-accent-text-color);
+}
+
+.defect-detail-screen .detail-screen-title,.defect-detail-screen .detail-screen-type,.defect-detail-screen .detail-screen-effect,.defect-detail-screen .detail-screen-description {
+    color: var(--defect-heading-text-color);
+}
+
+.defect-detail-screen .detail-screen-heading {
+    color: var(--defect-accent-text-color);
+}
+
+.defect-detail-screen .detail-screen-back-link {
+    background-color: var(--defect-relic-card-background);
+    border-color: var(--defect-accent-text-color);
+    color: var(--defect-accent-text-color);
+}
+
+.defect-detail-footer {
+    background-color: var(--defect-deck-footer-background);
+}
+
+.defect-detail-footer .character-screen-footer-title {
+    color: var(--defect-heading-text-color);
+}
+
+.defect-detail-footer .character-screen-footer-copyright, .defect-detail-footer .nav-links a {
+    color: var(--defect-text-color);
+}
+
+.defect-detail-screen .detail-screen-image-section {
+    background-color: var(--defect-relic-card-background);
+    border-color: var(--relic-card-border);
+}
+
 
                                     /* Media Query */
 @media (max-width: 1000px) {
