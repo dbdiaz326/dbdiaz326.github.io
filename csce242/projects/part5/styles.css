@@ -899,6 +899,25 @@ body {
     text-align: center;
 }
 
+.detail-screen-card-image-section {
+    width: 360px;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-screen-card-image {
+    width: 360px;
+    height: 470px;
+    object-fit: contain;
+    display: block;
+}
+
+.character-screen-deck-card-link {
+    text-decoration: none;
+}
+
                                     /* Ironclad Detail Screens */
 .ironclad-detail-screen {
     background-color: var(--ironclad-relic-section-background);
@@ -1287,5 +1306,15 @@ body {
 
     .detail-screen-back-link {
         margin: 0 auto;
+    }
+
+    .detail-screen-card-image-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .detail-screen-card-image {
+        width: 100%;
+        height: auto;
     }
 }
