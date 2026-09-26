@@ -1263,7 +1263,7 @@ body {
 
     #ironclad-hero {
         background-image: linear-gradient(to right, rgba(50, 16, 13, 0.8), rgba(50, 16, 13, 0.5)), url("images/ironclad-hero-image.png");
-        background-position: 65% center;
+        background-position: 70% center;
     }
 
     #silent-hero {
@@ -1343,6 +1343,14 @@ body {
     .character-screen-deck-card {
         width: 65%;
         height: auto;
+    }
+
+    .character-screen-deck-card-link {
+        width: 65%;
+    }
+
+    .character-screen-deck-card-link .character-screen-deck-card {
+        width: 100%;
     }
 
     #ironclad-deck-section .character-screen-deck-card:nth-child(1), #ironclad-deck-section .character-screen-deck-card:nth-child(6) {
