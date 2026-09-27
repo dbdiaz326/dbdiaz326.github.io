@@ -5,15 +5,25 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-
+        <header id="main-header">
+            <h1>Assignment 10</h1>
         </header>
         <div id="content">
             <main>
-
+                <h2>Arrays</h2>
+                <p>
+                    <label for="select-destination">Pick Your Destination Type</label>
+                    <select id="select-destination">
+                        <option value="">Select</option>
+                        <option value="mountains">Mountains</option>
+                        <option value="beaches">Beaches</option>
+                    </select>
+                </p>
+                <div id="destination-links"></div>
+                <div id="map" class="hidden"></div>
             </main>
-            <footer>
-
+            <footer id="main-footer">
+                <p>&copy; DylanDiaz</p>
             </footer>
         </div>
         <script src="scripts/script.js"></script>

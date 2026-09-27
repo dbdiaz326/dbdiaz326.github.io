@@ -1,0 +1,83 @@
+                                            /* Color Variables */
+:root {
+    --background: white;
+    --content: #f4f4eb;
+    --heading: #5d95a3;
+    --accent: #ef9b9b;
+}
+
+                                            /* Structural */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    margin: 0px;
+    padding: 0px;
+}
+
+                                            /* Header */
+#main-header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+#main-header h1 {
+    color: var(--heading);
+    margin: 0;
+}
+
+                                            /* Content */
+#content {
+    background-color: var(--content);
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+                                            /* Heading */
+h2 {
+    color: var(--accent);
+}
+
+                                            /* Label */
+label {
+    color: var(--heading);
+}
+
+select {
+    color: var(--heading);
+    font-size: 18px;
+    padding: 5px;
+}
+
+                                            /* Destination Links */
+#destination-links p {
+    margin: 20px;
+}
+
+#destination-links a {
+    color: var(--heading);
+    font-size: 20px;
+}
+
+                                            /* Map */
+#map iframe {
+    width: 70%;
+    height: 400px;
+    border: 0;
+}
+
+                                            /* Main Footer */
+#main-footer {
+    color: var(--accent);
+    padding: 10px;
+}
+
+#main-footer p {
+    margin: 0;
+}
+
+                                            /* Hiding */
+.hidden {
+    display: none;
+}
