@@ -1121,9 +1121,37 @@ body {
     border-color: var(--relic-card-border);
 }
 
+                                    /* Toggle Nav */
+#toggle-nav {
+    display:none;
+}
+
 
                                     /* Media Query */
 @media (max-width: 1000px) {
+    #intro-header, .character-screen-header {
+        position:relative;
+    }
+
+    #toggle-nav {
+        display:block;
+        position:absolute;
+        top:30px;
+        right:25px;
+        cursor:pointer;
+    }
+
+    #toggle-nav div {
+        background-color:var(--nav-text-color);
+        width:30px;
+        height:3px;
+        margin:6px 0;
+    }
+
+    .nav-links ul.hide-small {
+        display:none;
+    }
+
     #intro-header {
         flex-direction: column;
     }
