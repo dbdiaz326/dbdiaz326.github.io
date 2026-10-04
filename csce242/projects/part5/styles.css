@@ -364,6 +364,7 @@ body {
     gap: 25px;
     max-width: 980px;
     margin: 0 auto;
+    justify-content:center;
 }
 
 .character-screen-relic-card {
@@ -425,6 +426,7 @@ body {
     gap: 25px;
     max-width: 980px;
     margin: 0 auto;
+    justify-content:center;
 }
 
 .character-screen-deck-card {
