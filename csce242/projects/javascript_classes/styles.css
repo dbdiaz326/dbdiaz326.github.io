@@ -1,0 +1,130 @@
+:root {
+    --background:#FAF1E8;
+    --headings:#393D3B;
+    --light-text:#FAF1E8;
+    --accent-text:#A64F6C;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:var(--background);
+    padding:0;
+    margin:0;
+}
+
+#content {
+    width:80%;
+    margin:auto;
+}
+
+#main-header h1 {
+    color:#5f9eab;
+    text-align:center;
+    margin:0;
+    padding:15px 0;
+}
+
+#vacation-title {
+    color:#ef7c7c;
+    text-align:center;
+    font-size:24px;
+    font-weight:normal;
+    margin:0 0 18px;
+}
+
+.projects {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:15px;
+    padding:15px;
+}
+
+.vacation-card {
+    border-radius:8px;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.vacation-card h3 {
+    background:#4c68b0;
+    color:var(--light-text);
+    text-align:center;
+    font-size:20px;
+    font-weight:normal;
+    margin:0;
+    padding:8px;
+}
+
+.vacation-card h4 {
+    background:#4c68b0;
+    color:var(--light-text);
+    text-align:center;
+    font-size:12px;
+    font-weight:normal;
+    margin:0;
+    padding:6px 0 12px;
+}
+
+.vacation-card img {
+    width:100%;
+    height:190px;
+    object-fit:cover;
+    display:block;
+}
+
+#main-footer {
+    color:#5f9eab;
+    text-align:center;
+    font-size:12px;
+}
+
+#main-footer p {
+    margin:0;
+    padding:8px;
+}
+
+/* Modal */
+.vacation-modal-content {
+    background:#d5e5fc;
+    width:75%;
+    max-width:700px;
+    margin-top:12%;
+}
+
+.vacation-popup {
+    padding:15px;
+}
+
+#vacation-map iframe {
+    border:0;
+    width:100%;
+    height:300px;
+}
+
+.vacation-details {
+    color:#4c68b0;
+    padding:0 15px;
+}
+
+.vacation-details h2 {
+    color:#4c68b0;
+    margin-top:0;
+}
+
+.vacation-details p {
+    line-height:1.5;
+}
+
+.columns {
+    display:flex;
+}
+
+.one {
+    flex:1;
+}
+
+@media (min-width:1000px) {
+    .projects {
+        grid-template-columns:repeat(4, 1fr);
+    }
+}

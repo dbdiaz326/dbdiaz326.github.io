@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vacations</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <div id="content">
+            <header id="main-header">
+                <h1>Vacations</h1>
+            </header>
+            <main>
+                <h2 id="vacation-title">Vacation Experiences</h2>
+                <div id="vacation-gallery" class="projects vacations">
+                </div>
+            </main>
+            <footer id="main-footer">
+                <p>&copy; Dylan Diaz</p>
+            </footer>
+        </div>
+        <div id="vacation-modal" class="w3-modal">
+            <div class="w3-modal-content vacation-modal-content">
+                <span id="btn-close" class="w3-button w3-display-topright">&times;</span>
+                <div class="columns vacation-popup">
+                    <div class="one">
+                        <div id="vacation-map"></div>
+                    </div>
+                    <div class="one vacation-details">
+                        <h2 id="modal-title"></h2>
+                        <p><strong>Type:</strong> <span id="modal-type"></span></p>
+                        <p><strong>Description:</strong> <span id="modal-description"></span></p>
+                        <p><strong>Things To Do:</strong> <span id="modal-things-to-do"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
