@@ -1177,14 +1177,17 @@ body {
     }
 
     #hero-section {
-        min-height: 500px;
-        background-position: center;
+        min-height:500px;
+        background-position:center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
     }
 
     #hero-heading {
         font-size: 50px;
         text-align: center;
-        padding: 60px 20px 0;
+        padding:0 20px;
     }
 
     #hero-text {
@@ -1267,13 +1270,17 @@ body {
     }
 
     .character-screen-hero {
-        min-height: 600px;
-        background-position: center;
+        min-height:600px;
+        background-position:center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
     }
 
     .character-screen-hero-title {
-        font-size: 50px;
-        padding: 65px 20px 0;
+        font-size:50px;
+        padding:0 20px;
+        text-align:center;
     }
 
     .character-screen-hero-description {
@@ -1282,11 +1289,14 @@ body {
         font-size: 20px;
         padding: 0 20px;
         margin: 15px 0 0;
+        text-align:center;
     }
 
     .character-screen-starting-health, .character-screen-starting-relic {
         font-size: 18px;
         padding-left: 20px;
+        text-align:center;
+        padding:0 20px;
     }
 
     #ironclad-hero {
