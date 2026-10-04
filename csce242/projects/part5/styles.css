@@ -86,9 +86,10 @@ body {
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: var(--nav-text-color);
-    font-size: 18px;
+    text-decoration:none;
+    color:var(--nav-text-color);
+    font-size:16px;
+    text-transform:uppercase;
 }
 
                                     /* Hero */
@@ -920,6 +921,10 @@ body {
                                     /* Ironclad Detail Screens */
 .ironclad-detail-screen {
     background-color: var(--ironclad-relic-section-background);
+}
+
+.ironclad-detail-screen .character-screen-header {
+    background-color:var(--ironclad-deck-background);
 }
 
 .ironclad-detail-screen .character-screen-site-title {
