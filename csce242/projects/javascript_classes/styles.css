@@ -5,6 +5,7 @@
     --accent-text:#A64F6C;
 }
 
+                                            /* Structural */
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color:var(--background);
@@ -83,7 +84,7 @@ body {
     padding:8px;
 }
 
-/* Modal */
+                                            /* Modal */
 .vacation-modal-content {
     background:#d5e5fc;
     width:75%;
