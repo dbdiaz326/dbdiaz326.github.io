@@ -30,11 +30,6 @@ const displayRelic = (relic) => {
     h3.innerHTML = relic.name;
     article.append(h3);
 
-    const pType = document.createElement("p");
-    pType.classList.add("character-screen-relic-description");
-    pType.innerHTML = `${relic.type} / ${relic.rarity}`;
-    article.append(pType);
-
     const pEffect = document.createElement("p");
     pEffect.classList.add("character-screen-relic-description");
     pEffect.innerHTML = relic.effect;
