@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="contact-content">
+            <header class="character-screen-header" id="contact-header">
+                <h1 class="character-screen-site-title">The Spire Character<br>Compendium</h1>
+                <nav class="nav-links">
+                    <div id="toggle-nav">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <ul id="main-nav-list" class="hide-small">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="ironclad.html">Ironclad</a></li>
+                        <li><a href="silent.html">Silent</a></li>
+                        <li><a href="defect.html">Defect</a></li>
+                        <li><a href="watcher.html">Watcher</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="contact-section">
+                    <h1 id="contact-heading">Contact Me</h1>
+                    <p id="contact-description">Have a question about The Spire Character Compendium? Send me a message.</p>
+
+                    <form id="contact-form" action="" method="POST">
+                        <input type="hidden" name="access_key" value="7b0d8094-bd65-46e0-8b00-37ebfbd72a9a">
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </p>
+                        <p><button type="submit">Send Message</button></p>
+                        <p id="result"></p>
+                    </form>
+                </section>
+            </main>
+        </div>
+        <footer class="character-screen-footer" id="contact-footer">
+            <section class="character-screen-footer-info">
+                <h2 class="character-screen-footer-title">The Spire Character<br>Compendium</h2>
+                <p class="character-screen-footer-copyright">Copyright Dylan Diaz</p>
+            </section>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="ironclad.html">Ironclad</a></li>
+                    <li><a href="silent.html">Silent</a></li>
+                    <li><a href="defect.html">Defect</a></li>
+                    <li><a href="watcher.html">Watcher</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/contact.js"></script>
+    </body>
+</html>
