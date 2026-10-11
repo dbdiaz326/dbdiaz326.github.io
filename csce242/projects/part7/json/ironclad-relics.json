@@ -1,0 +1,90 @@
+[
+    {
+        "_id": 1,
+        "name": "Burning Blood",
+        "type": "Relic",
+        "rarity": "Starting",
+        "effect": "Heal 6 HP after combat.",
+        "img_name": "ironclad-item-images/burning-blood-image.png"
+    },
+    {
+        "_id": 2,
+        "name": "Red Skull",
+        "type": "Relic",
+        "rarity": "Common",
+        "effect": "While below 50% HP, gain 3 Strength.",
+        "img_name": "ironclad-item-images/red-skull-image.png"
+    },
+    {
+        "_id": 3,
+        "name": "Paper Phrog",
+        "type": "Relic",
+        "rarity": "Uncommon",
+        "effect": "Enemies with Vulnerable take 75% more damage.",
+        "img_name": "ironclad-item-images/paper-phrog-image.png"
+    },
+    {
+        "_id": 4,
+        "name": "Self-Forming Clay",
+        "type": "Relic",
+        "rarity": "Common",
+        "effect": "When attacked, gain 3 Block next turn.",
+        "img_name": "ironclad-item-images/self-forming-clay-image.png"
+    },
+    {
+        "_id": 5,
+        "name": "Champion Belt",
+        "type": "Relic",
+        "rarity": "Uncommon",
+        "effect": "Applying Vulnerable also applies 1 Weak.",
+        "img_name": "ironclad-item-images/champion-belt-image.png"
+    },
+    {
+        "_id": 6,
+        "name": "Charon's Ashes",
+        "type": "Relic",
+        "rarity": "Rare",
+        "effect": "Exhausting a card deals 3 damage to all enemies.",
+        "img_name": "ironclad-item-images/charons-ashes-image.png"
+    },
+    {
+        "_id": 7,
+        "name": "Magic Flower",
+        "type": "Relic",
+        "rarity": "Rare",
+        "effect": "Healing is 50% more effective.",
+        "img_name": "ironclad-item-images/magic-flower-image.png"
+    },
+    {
+        "_id": 8,
+        "name": "Black Blood",
+        "type": "Relic",
+        "rarity": "Boss",
+        "effect": "Replaces Burning Blood. Heal 12 HP after combat.",
+        "img_name": "ironclad-item-images/black-blood-image.png"
+    },
+    {
+        "_id": 9,
+        "name": "Mark of Pain",
+        "type": "Relic",
+        "rarity": "Boss",
+        "effect": "Gain 1 Energy. Add 2 Wounds to your deck.",
+        "img_name": "ironclad-item-images/mark-of-pain-image.png"
+    },
+    {
+        "_id": 10,
+        "name": "Runic Cube",
+        "type": "Relic",
+        "rarity": "Rare",
+        "effect": "Whenever you lose HP, draw 1 card.",
+        "img_name": "ironclad-item-images/runic-cube-image.png"
+    },
+    {
+        "_id": 11,
+        "name": "Brimstone",
+        "type": "Relic",
+        "rarity": "Rare",
+        "effect": "At the start of each turn, gain 2 Strength. All enemies gain 1 Strength.",
+        "img_name": "ironclad-item-images/brimstone-image.png"
+    }
+]
