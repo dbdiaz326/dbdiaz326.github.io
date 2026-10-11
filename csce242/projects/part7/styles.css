@@ -1270,6 +1270,38 @@ body {
     color: var(--text-color);
 }
 
+                                    /* Video */
+#video-section {
+    background-color: var(--ironclad-deck-background);
+    border: 4px solid var(--divider-color);
+    padding: 80px 20px;
+}
+
+#video-heading {
+    color: var(--heading-text-color);
+    font-size: 40px;
+    text-transform: uppercase;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+
+#video-container {
+    position: relative;
+    max-width: 900px;
+    height: 0;
+    margin: 0 auto;
+    padding-bottom: 56.25%;
+}
+
+#video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--relic-card-border);
+}
+
 
 
                                     /* Media Query */
@@ -1690,5 +1722,14 @@ body {
 
     #contact-footer .nav-links {
         margin: 30px auto 0;
+    }
+
+    #video-section {
+        padding: 50px 20px;
+    }
+
+    #video-heading {
+        font-size: 38px;
+        text-align: center;
     }
 }
