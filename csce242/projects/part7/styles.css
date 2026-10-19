@@ -295,6 +295,10 @@ body {
     margin: 25px 0 0;
 }
 
+#home-footer .nav-links a {
+    font-size: 14px;
+}
+
 
                                     /* Character Screen Classes */
 .character-screen-header {
@@ -1302,6 +1306,10 @@ body {
     border: 1px solid var(--relic-card-border);
 }
 
+                                    /* Site Logo */
+.site-logo {
+    text-decoration: none;
+}
 
 
                                     /* Media Query */
